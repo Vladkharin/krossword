@@ -1,0 +1,59 @@
+form{
+    display: grid;
+    grid-template-columns:500px repeat(27, 30px) 500px;
+    grid-template-rows: repeat(30, 30px);
+    justify-content: center;
+}
+
+form button{
+    grid-row-start: 30;
+    grid-column-start: 10;
+    grid-column-end: 15;
+}
+
+form div{
+    display: flex;  
+    justify-content: center;
+}
+
+.left{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 30;
+    flex-direction: column;
+}
+
+.left ul{
+    list-style: none;
+    padding: 0;
+}
+
+.left span{
+    font-size: 20px;
+}
+.left ul li{
+    font-size: 20px;
+}
+
+.right{
+    grid-column: 29;
+    grid-row-start: 1;
+    grid-row-end: 30;
+    flex-direction: column;
+}
+
+.right ul{
+    list-style: none;
+    padding: 0;
+}
+
+.right span{
+    font-size: 20px;
+}
+.right ul li{
+    font-size: 20px;
+}
+
+.black{
+    background: #000;
+}
