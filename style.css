@@ -5,6 +5,10 @@ form{
     justify-content: center;
 }
 
+form input{
+    text-align: center;
+}
+
 form button{
     grid-row-start: 30;
     grid-column-start: 10;
